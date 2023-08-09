@@ -1,0 +1,94 @@
+{
+    "tecnologies":
+    {
+        "python":{
+            "url": "https://www.python.org/",
+            "icon": "https://i.imgur.com/ULDX3XM.png"
+            
+        },
+        "django":{
+            "url": "https://www.djangoproject.com/",
+            "icon": "https://i.imgur.com/cGBeTHb.png"
+        },
+        "aws":{
+            "url": "https://aws.amazon.com/pt/",
+            "icon": "https://i.imgur.com/xWbROWh.png"
+        },
+        "react":{
+            "url": "https://react.dev/",
+            "icon": "https://i.imgur.com/oxU1o0v.png"
+        },
+        "javascript":{
+            "url": "https://www.javascript.com/",
+            "icon": "https://i.imgur.com/JbaLd9c.png"
+        },
+        "css":{
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "icon": "https://i.imgur.com/ZCmZDTf.png"
+        },
+        "html":{
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "icon": "https://i.imgur.com/meJdyU3.png"
+        },
+        "blazor": 
+        {
+            "url": "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Blazor.png"
+        },
+        "dotnetcore":
+        {
+            "url": "https://dotnet.microsoft.com/en-us/apps/aspnet",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/512px-.NET_Core_Logo.svg.png"
+        }
+    },
+    "social_media": 
+    {
+        "github":{
+            "url": "https://github.com/Kassiowl",
+            "icon": "https://i.imgur.com/MAHujta.png"
+        },
+        "linkedin":{
+            "url": "https://www.linkedin.com/in/kassiowallace/",
+            "icon": "https://i.imgur.com/m8Mg17a.png"
+        },
+        "medium": {
+            "url": "https://medium.com/@kassiowl34",
+            "icon": "https://i.imgur.com/O9YfKb4.png"
+        }
+    },
+    "projects": 
+    {
+        "rnmoncrud":
+        {
+            "name": "rnmoncrud",
+            "url": "https://github.com/Kassiowl/RNMonCrud",
+            "icon": "https://i.imgur.com/87zTjxG.png"
+        },
+        "notion-connect-to-sheet":
+        {
+            "name": "notion-connect-to-sheet",
+            "url": "https://github.com/Kassiowl/NOTION-CONNECT-TO-SHEET",
+            "icon": "https://camo.githubusercontent.com/3df303706c81c59f983c39b7deebcb843e99608bf0b8baaa40d130bce3f5c884/68747470733a2f2f692e696d6775722e636f6d2f616c657a5574532e706e67"
+        },
+        "qrcodedisplaydatapub":
+        {
+            "name": "qrcodedisplaydatapub",
+            "url": "https://github.com/Kassiowl/QrCodeDisplayDataPub",
+            "icon": "https://i.imgur.com/0lD6jBK.png"
+        },
+        "portfoliopage":
+        {
+            "name": "portfoliopage",
+            "url": "https://github.com/Kassiowl/PortFolioReactPage",
+            "icon": "https://i.imgur.com/6EhjOvA.png"
+        }
+    },
+    "testimonials":
+    {
+        "your name":
+        {
+            "url": "",
+            "icon": "https://cdn-icons-png.flaticon.com/512/5556/5556468.png"
+        }
+    }
+}

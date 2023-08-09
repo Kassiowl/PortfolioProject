@@ -1,0 +1,5 @@
+.text-area-custom-css, input, input::placeholder{
+    background-color: rgb(42, 40, 40) !important;
+    color: white !important;
+}
+

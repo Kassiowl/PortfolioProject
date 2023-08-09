@@ -1,0 +1,23 @@
+.project img:hover, .footer img:active{
+  
+    animation: toColor 1.2s forwards;
+    
+}
+.project img{
+    filter: grayscale(100%);
+}
+
+.project-paragraph-div
+{
+  min-height: 200px;
+}
+
+
+@keyframes toColor {
+    from {
+      filter: grayscale(100%); /* Start with a black and white image */
+    }
+    to {
+      filter: grayscale(0%); /* Transition to a fully colored image */
+    }
+  }

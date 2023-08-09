@@ -1,0 +1,57 @@
+{
+    "about_me":{
+        "paragraphs":{
+            "p1": "My name is Kassio Wallace, and i'm a programmer passionate to solve problems, specially low level ones, for some time, i did web software projects, learning back-end tecnologies like django and front-end tecnologies like React",
+            "p2": "I studied and still study software architecture, with the purpose to create scalable and long-run, lately, i start to study computer graphics programming as it's one of my biggest will to learn and, understand low-level programming and concepts.",
+            "p3": "I'am doing software enginnering at college, current at eight period. I'll graduate in december/2023"
+        }
+    },
+    "experiences":{
+        "SEDES - Intern Developer":{
+            "paragraphs":{
+                "p1": "A form based software with complex business rules, validation and huge feedback capabilities to the users. The form validates a series of rules where the values allowed on the fields depend on each other. The form supports bidirectional feedback meaning that any field can invalidate the other, no matter the order they’ve been filled. Using MVC django web framework, Python and the classic web stack (HTML, CSS and Javascript",
+                "p2": "Agile development and version control using gitlab",
+                "p3": "Leadership in a small and beginner-level development team, meeting with stakeholders, translating software requirements and ticket creation with task delegation"
+            },
+            "tecnologies":{
+                "front-end-tecnologies": ["javascript", "html", "css"],
+                "back-end-tecnologies": ["python", "django"]
+            }
+        }
+    },
+    "projects":{
+        "RNMonCrud":{
+            "paragraphs":{
+                "p1": "A simple web Application made with React in Front-End and Node in Back-end, made to learn React. This application use mongodb as database, has authentication and C.R.U.D operations, capable of registering new users, store password in bcrypt hash, using http cat api(HTTP CAT) to display image according to user input and random user api(Random User Generator) to display a list of random users"
+            }
+        },
+        "NOTION-CONNECT-TO-SHEET": {
+            "paragraphs":{
+                "p1": "A simple application capable of connecting one of the most popular enterprise knowledge repositories solutions (notion) to the google sheets"
+            }
+        },
+        "QrCodeDisplayDataPub" :{
+            "paragraphs":{
+                "p1": "A clean architecture project made with django and react, the user can fill in a form that it will create a qr code that redirect a page that contain that specific user data, like name, about me, a linkedin button that redirect to the user linkedin and the same as the github."
+            }
+        },
+        "PortfolioPage":{
+            "paragraphs":{
+                "p1": "Project of this page, made it with React in front and python in the back-end, using hexagonal architecture, as it is some as simple as getting info from the back-end and display from it, this project has a well made, careful and characteristic design, using many features of css as well as animations"
+            }
+        }
+    },
+    "testimonials":{
+        "placeholder":{
+            "name": "Your name",
+            "role": "Your Role",
+            "where": "At route 66",
+            "date": "12/12/2020 to 12/12/2022",
+            "paragraphs":{
+                "p1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis fuga ipsa dolores non perspiciatis deserunt dicta consequatur amet harum quidem dolor aliquid in molestias, nesciunt ab expedita quibusdam, laborum recusandae!",
+                "p2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis fuga ipsa dolores non perspiciatis deserunt dicta consequatur amet harum quidem dolor aliquid in molestias, nesciunt ab expedita quibusdam, laborum recusandae!"
+            }
+        }
+
+    }
+}

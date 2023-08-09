@@ -1,0 +1,58 @@
+
+
+.footer{
+    background-color:rgb(23, 21, 21);
+    width:100%;
+}
+
+
+.footer-info{
+  margin-left: 10px !important;
+}
+
+.footer-info h3{
+  margin-bottom: 30px;
+}
+.social-media img, .tecnology-stacks img{
+    padding: 10px;
+    filter: grayscale(100%);
+}
+
+.image-div{
+  float:left; 
+  min-width: 100px;
+  min-height: 100px;
+  margin-left: -25px;
+  margin-top: -25px;
+}
+
+.footer img:hover, .footer img:active{
+    transform: rotate(10deg);
+    transition: transform .3s ease-in-out;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    animation: toColor 2s forwards;
+}
+
+@media (max-width: 992px) {
+  .stack-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+  .col-md-12{
+    width: unset !important;
+  }
+  .row-container{
+    text-align: center;
+  }
+}
+
+@keyframes toColor {
+    from {
+      filter: grayscale(100%); /* Start with a black and white image */
+    }
+    to {
+      filter: grayscale(0%); /* Transition to a fully colored image */
+    }
+  }
