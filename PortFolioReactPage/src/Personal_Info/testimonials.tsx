@@ -122,19 +122,19 @@ function Testimonials(this: any) {
             <Form onSubmit={testimonialSubmit}>
             <Form.Group className="m-4" controlId="name">
               <Form.Label>Full Name</Form.Label>
-              <Form.Control type="text" placeholder="Kassio Wallace de Oliveira" onChange={onFieldChange}/>
+              <Form.Control type="text" placeholder="Kassio Wallace de Oliveira" onChange={onFieldChange} required />
             </Form.Group>
             <Form.Group className="m-4" controlId="where">
               <Form.Label>Where we worked together</Form.Label>
-              <Form.Control type="text" onChange={onFieldChange} />
+              <Form.Control type="text" onChange={onFieldChange} required />
             </Form.Group>
             <Form.Group className="m-4" controlId="role">
               <Form.Label>Your Role</Form.Label>
-              <Form.Control type="text" placeholder="software developer" onChange={onFieldChange}  />
+              <Form.Control type="text" placeholder="software developer" onChange={onFieldChange} required />
             </Form.Group>
             <Form.Group className="m-4" controlId="testimonial_text">
               <Form.Label>Testimonial</Form.Label>
-              <Form.Control as="textarea" className="text-area-custom-css" onChange={onFieldChange} />
+              <Form.Control as="textarea" className="text-area-custom-css" onChange={onFieldChange} required />
             </Form.Group>
             <Form.Group className="m-4" controlId="linkedin_profile">
               <Form.Label>Linkedin profile</Form.Label>

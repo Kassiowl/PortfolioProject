@@ -41,15 +41,15 @@ function ContactMe() {
         <Form onSubmit={contactMeSubmit}>
           <Form.Group className="m-4" controlId="email_address">
             <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="your@email.com" onChange={onFieldChange}/>
+            <Form.Control type="email" placeholder="your@email.com" onChange={onFieldChange} required />
           </Form.Group>
           <Form.Group className="m-4" controlId="subject">
             <Form.Label>subject</Form.Label>
-            <Form.Control type="text" onChange={onFieldChange}/>
+            <Form.Control type="text" onChange={onFieldChange} required/>
           </Form.Group>
           <Form.Group className="m-4" controlId="message">
             <Form.Label>message</Form.Label>
-            <Form.Control as="textarea" className="text-area-custom-css" rows={10} onChange={onFieldChange}/>
+            <Form.Control as="textarea" className="text-area-custom-css" rows={10} onChange={onFieldChange} required />
           </Form.Group>
           <button className="btn btn-lg ms-4" type="submit">Send</button>
         </Form>
